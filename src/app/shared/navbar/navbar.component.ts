@@ -14,6 +14,5 @@ export class NavbarComponent implements OnInit {
   goUser(idToSearch: string) {
     if (!idToSearch) return;
     this.router.navigate(['user', idToSearch]);
-    console.log(idToSearch);
   }
 }
